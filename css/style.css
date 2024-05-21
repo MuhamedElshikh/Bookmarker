@@ -1,0 +1,83 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color:#f7ecde;
+    background-position: center;
+    background-size:cover ;
+    
+    color: white;
+    
+}
+
+.px{
+    padding: 30px;
+}
+.header{
+    border-bottom: dotted black 2px !important;
+}
+.content{
+    border-bottom: dotted black 2px !important;
+    padding-bottom: 30px;
+}
+h1{
+    
+        font-family: "Cedarville cursive","cursive";
+        font-size: 50px;
+        font-weight: 800;
+        font-style: normal;
+      color: black;
+      
+}
+.btn-brown{
+    background-color: #bb4120;
+    color: white;
+    transition:all 0.5s ;
+    -webkit-transition:all 0.5s ;
+    -moz-transition:all 0.5s ;
+    -ms-transition:all 0.5s ;
+    -o-transition:all 0.5s ;
+}
+.bg-h{
+background-image: linear-gradient(to right, #3ca55c, #b5ac49);
+background-clip:text;
+color: transparent;
+}
+.header h1::after{
+    content: "";
+    position: absolute;
+    width: 100%;
+    height:20px ;
+    background-color: #fec260;
+    z-index: -1;
+    bottom: 0;
+    left: 0;
+    transition:all 0.5s ;
+    -webkit-transition:all 0.5s ;
+    -moz-transition:all 0.5s ;
+    -ms-transition:all 0.5s ;
+    -o-transition:all 0.5s ;
+}
+.header h1:hover::after{
+    height: 30px;
+}
+.btn-brown:hover{
+    background-color: #be644b; 
+    color: white;  
+    border: solid 1px black;
+}
+.btn-delete{
+    background-color: rgb(233, 47, 47);
+    color: white;
+}
+.btn-delete:hover{
+    background-color: rgb(255, 0, 0);
+    color: white;
+}
+.btn-vist{
+    background-color: rgb(5, 248, 25);
+    color: white;
+}
+.btn-vist:hover{
+    background-color: rgb(1, 70, 7);
+    color: white;
+}
